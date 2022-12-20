@@ -160,7 +160,6 @@ fn solve_part_two() -> Result<String> {
 }
 
 #[cfg(test)]
-#[cfg(test)]
 mod tests {
 
     use super::*;
