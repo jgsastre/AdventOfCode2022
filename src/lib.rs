@@ -10,3 +10,37 @@ where
         .filter_map(|line| line.parse::<T>().ok())
         .collect())
 }
+
+/*
+struct Foo {
+    bar: usize,
+    baz: String,
+}
+
+struct Container {
+    cell: Cell<Foo>
+}
+
+
+#[cfg(test)]
+mod tests{
+    
+    use super::*;
+
+    #[test]
+    fn test() {
+        
+        let _container = Container{ cell: Cell::new(Foo{ bar: 1, baz: "foo".to_string() }) };
+
+        let inner_value = _container.cell.get();
+
+
+
+
+    }
+
+}
+*/
+
+
+
